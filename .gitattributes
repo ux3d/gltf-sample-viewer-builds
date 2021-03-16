@@ -11,5 +11,3 @@
 *.ktx2 binary
 *.svg binary
 *.pdf binary
-*.hdr filter=lfs diff=lfs merge=lfs -text
-*.ktx2 filter=lfs diff=lfs merge=lfs -text
