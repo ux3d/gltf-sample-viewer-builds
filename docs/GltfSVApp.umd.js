@@ -21588,7 +21588,7 @@
               pluck('newValue'),
               map( environmentName => this.app.environments[environmentName].hdr_path)
           );
-          const initialEnvironment = "footprint_court_512";
+          const initialEnvironment = "footprint_court";
           this.app.selectedEnvironment = initialEnvironment;
 
           this.app.tonemaps = Object.keys(GltfState.ToneMaps).map((key) => {
@@ -24273,7 +24273,6 @@
       const pathProvider = new gltfModelPathProvider('assets/models/2.0/model-index.json');
       await pathProvider.initialize();
       const environmentPaths = fillEnvironmentWithPaths({
-          "footprint_court_512": "Footprint Court (512p)",
           "footprint_court": "Footprint Court",
           "pisa": "Pisa",
           "doge2": "Doge's palace",
